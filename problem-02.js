@@ -7,16 +7,16 @@ const getDayType = (day) => {
       return "Invalid Day";
   }
 };
-getDayType("Friday"); 
-getDayType("friday"); 
-getDayType("FRIDAY"); 
-getDayType("Saturday")
+ console.log(getDayType("Friday")); 
+console.log(getDayType("friday")); 
+console.log(getDayType("FRIDAY")); 
+console.log(getDayType("Saturday"));
 
-getDayType("Sunday");     
-getDayType("MONDAY");     
-getDayType("tuesday");    
-getDayType("Wednesday");  
-getDayType("THURSDAY");   
+console.log(getDayType("Sunday"));     
+console.log(getDayType("MONDAY"));     
+console.log(getDayType("tuesday"));    
+console.log(getDayType("Wednesday"));  
+console.log(getDayType("THURSDAY"));   
 
-getDayType("Bandarban");  
-getDayType("Holiday");    
+console.log(getDayType("Bandarban"));  
+console.log(getDayType("Holiday"));    
