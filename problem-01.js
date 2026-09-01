@@ -1,3 +1,1 @@
-const describeValue = (value) => {
-  return `${typeof value} | ${Boolean(value)? "truthy" : "falsy"}`;
-};
+const describeValue = (value) => `${typeof value} | ${Boolean(value)? "truthy" : "falsy"}`;

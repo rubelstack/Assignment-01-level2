@@ -1,8 +1,7 @@
-const validateUsername = (username) => {
-return username.length < 4  ? "Too Short" :  username.includes(" ")
+const validateUsername = (username) =>  username.length < 4  ? "Too Short" :  username.includes(" ")
       ? "No Space Allowed" : username.toLowerCase().includes("admin")
         ? "Reserved Word" : "Available";
-};
+
 console.log(validateUsername("rahim123"));
 console.log(validateUsername("ab"));
 console.log(validateUsername("a b"));
