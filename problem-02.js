@@ -1,5 +1,5 @@
 const getDayType = (day) => {
-  switch (day.toLowerCase()) {
+  switch (typeof day === "string" ? day.trim().toLowerCase() : "Invalid Day") {
     case "saturday":
     case "friday":
       return `Weekend`;
