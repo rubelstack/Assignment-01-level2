@@ -5,5 +5,4 @@ fare += waitingMinutes * 2;
 return isNight ? fare * 1.2 : fare;
 
 
-
 }
